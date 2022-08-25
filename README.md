@@ -2,5 +2,5 @@
 
 Technical Round
 
-- See [Web](https://github.com/Mr-vabs/webkul)
+- See [Web](https://mr-vabs.github.io/webkul/Design.html)
 - See [Repo](https://github.com/Mr-vabs/webkul)
