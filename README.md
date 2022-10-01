@@ -9,6 +9,12 @@
 - See [Web](https://Mr-vabs.github.io/webkul/index.html)
 - See [Repo](https://github.com/Mr-vabs/webkul)
 
+## Solution
+
+<hr>
+
+- View solution in [python](https://github.com/Mr-vabs/webkul/tree/main/Python).
+
 ## Notice
 
 <hr>
@@ -23,7 +29,7 @@ I am Aadding some Extra Part in this Repository. Now you can add your tools or p
 
 <hr>
 
-- Star and fork this repository by clicking [here](https://github.com/Kaur-mahar/Programming-Patterns---Webkul/fork).
+- Star and fork this repository by clicking [here](https://github.com/Mr-vabs/webkul/fork).
 
 - You can add your code within respected folder, however if you want to add any program in any language which is not listed then you will have to create a folder with the language name and then add in that folder.
 

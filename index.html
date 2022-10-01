@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Webkul Technical Round Question</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <style type="text/css" media="all">
   
      body {
@@ -12,6 +13,7 @@
        width: 100vw;
        padding: 0;
        margin: 0;
+       
      }
      
     .grid-ctn-one {
@@ -53,63 +55,15 @@
   </style>
 </head>
 <body>
-  <!--
-  <table border="1">
-   <tr>
-     <td>*</td>
-     <td></td>
-     <td></td>
-     <td></td>
-     <td></td>
-     <td> </td>
-   </tr>
-   <tr>
-     <td>*</td>
-     <td></td>
-     <td></td>
-     <td></td>
-     <td></td>
-     <td> </td>
-   </tr>
-   <tr>
-     <td>*</td>
-     <td>@</td>
-     <td>@</td>
-     <td>@</td>
-     <td>@</td>
-     <td>*</td>
-   </tr>
-   <tr>
-     <td>*</td>
-     <td>@</td>
-     <td>@</td>
-     <td>@</td>
-     <td>@</td>
-     <td>*</td>
-   </tr>
-   <tr>
-     <td> </td>
-     <td>@</td>
-     <td>@</td>
-     <td>@</td>
-     <td>@</td>
-     <td>*</td>
-   </tr>
-   <tr>
-     <td> </td>
-     <td>@</td>
-     <td>@</td>
-     <td>@</td>
-     <td>@</td>
-     <td>*</td>
-   </tr>
-  </table>
-  -->
-  <div class="img-ctn">
-    <img src="https://raw.githubusercontent.com/Mr-vabs/webkul/main/IMG_20220825_145242.jpg" alt="formula" />
+  <div class="container">
+    <h1 class="text-center alert alert-danger m-5">Webkul Pattern Problem</h1>
   </div>
-  <h1>for input of 3</h1>
-  <div class="grid-ctn-one">
+  <div class="container img-ctn">
+    <img src="images/problem.jpg" alt="image of problem formula" />
+    <hr />
+  </div>
+  <h2 class="text-center alert alert-info m-2">for input of 3</h2>
+  <div class="container grid-ctn-one">
     <div>@</div>
     <div></div>
     <div></div>
@@ -166,8 +120,9 @@
     <div></div>
     <div></div>
   </div>
-  <h1>for input of 5</h1>
-  <div class="grid-ctn-two">
+  <hr />
+  <h2 class="text-center alert alert-info m-2">for input of 5</h2>
+  <div class="container grid-ctn-two">
     <div>@</div>
     <div></div>
     <div></div>
@@ -280,6 +235,34 @@
     <div></div>
     <div></div>
     <div></div>
+  </div>
+  <hr />
+  <div class="container">
+     <h2 class="text-center alert alert-info m-2">Solution</h2>
+     <pre>
+       <code>
+for i in range(1,n+3):
+  for j in range(n//2+2):
+    if i <= n//2+2 and j < i:
+      print("@",end="")
+    elif i > n//2+2 and j < 2*(n//2+2)-i:
+      print("@",end="")
+    else:
+      print(" ",end="")
+  for j in range(n+2):
+    if i == n//2+2:
+      print("*",end="")
+    else:
+      print(" ",end="")
+  for j in range(n):
+    if i > 1 and i < n+2:
+      print("@",end=""
+  print()
+print()
+       </code>
+     </pre>
+    <a href="https://github.com/Mr-vabs/webkul/tree/main/Python" class="btn btn-primary btn-lg">See Code Repository</a>
+    <hr />
   </div>
 </body>
 </html>
