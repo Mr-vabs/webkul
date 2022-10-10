@@ -1,6 +1,16 @@
+[//]:: (Start of README with a markdown comment)
 # Webkul
 
 ---
+
+![Total lines](https://sloc.xyz/github/Mr-vabs/webkul)
+![Number of Visitors](https://visitor-badge.laobi.icu/badge?page_id=aritra-tech/Mr-vabs.webkul)
+[![Stars Badge](https://img.shields.io/github/stars/Mr-vabs/webkul)](https://github.com/Mr-vabs/webkul/stargazers)
+[![Forks Badge](https://img.shields.io/github/forks/Mr-vabs/webkul)](https://github.com/Mr-vabs/webkul/network/members)
+[![Pull Requests Badge](https://img.shields.io/github/issues-pr/Mr-vabs/webkul)](https://github.com/Mr-vabs/webkul/pulls)
+[![Issues Badge](https://img.shields.io/github/issues/Mr-vabs/webkul)](https://github.com/Mr-vabs/webkul/issues)
+[![GitHub contributors](https://img.shields.io/github/contributors/Mr-vabs/webkul?color=2b9348)](https://github.com/Mr-vabs/webkul/graphs/contributors)
+
 
 ## Technical Round
 
@@ -50,9 +60,11 @@ For Developers, working at Webkul is all about coding & programming. Webkul alwa
 
 ---
 
-- Please follow the instructions given below, otherwise I won't accept your pull request.
+- Please follow the instructions given below and don't modify README in any case, otherwise I won't accept your pull request.
 
 - Only 1 PR will be accepted from on person and it should follow the given instructions.
+
+- Please don't change anything in README. If anything is incorrect or needed to update leave it or suggest it in issues. 
 
 - This repository was made for webkul technical round questions for which they give 60 minutes to solve a pattern problem.
 
@@ -74,6 +86,8 @@ For Developers, working at Webkul is all about coding & programming. Webkul alwa
 
 - After solving question in your language as per instructions, please check that everything is as organised as per instruction? If yes then it's good to go and please deploy your forked repository so that maintainer can check if everything is fine or not.
 
+- Deploy it using GitHub pages. Go to settings of your repository, go to GitHub pages, choose a branch and save. Wait for few minutes and see but please don't change anything in README.
+
 - Make pr and wait for to check it. If everything is perfect then it'll be merged.
 
 ## Good for pattern logics
@@ -86,3 +100,5 @@ For Developers, working at Webkul is all about coding & programming. Webkul alwa
 
 
 I'll keep adding more solutions once I get a job or If I'm coding on regular basis and nothing left to code....
+
+[//]:: (Start of README with a markdown comment)
