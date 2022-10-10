@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Webkul Technical Round Question</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <style type="text/css" media="all">
-  
-     body {
-       height: 100vh;
-       width: 100vw;
-       padding: 0;
-       margin: 0;
-       
-     }
-     
+    body {
+      height: 100vh;
+      width: 100vw;
+      padding: 0;
+      margin: 0;
+      overflow-x: hidden;
+
+    }
+
     .grid-ctn-one {
       border: none;
       display: grid;
@@ -25,7 +27,7 @@
       align-self: center;
       justify-self: center;
     }
-    
+
     .grid-ctn-two {
       border: none;
       display: grid;
@@ -35,25 +37,25 @@
       align-self: center;
       justify-self: center;
     }
-    
+
     div {
       border: none;
       padding: 4px;
     }
-    
+
     .img-ctn {
       width: 90vw;
       height: 30vh;
     }
-    
+
     .img-ctn img {
       width: 100%;
       height: 100%;
       object-fit: contain;
     }
-    
   </style>
 </head>
+
 <body>
   <div class="container">
     <h1 class="text-center alert alert-danger m-5">Webkul Pattern Problem</h1>
@@ -238,9 +240,10 @@
   </div>
   <hr />
   <div class="container">
-     <h2 class="text-center alert alert-info m-2">Solution</h2>
-     <pre>
+    <h2 class="text-center alert alert-info m-2">Solution</h2>
+    <pre>
        <code>
+<strong> 
 for i in range(1,n+3):
   for j in range(n//2+2):
     if i <= n//2+2 and j < i:
@@ -259,10 +262,12 @@ for i in range(1,n+3):
       print("@",end=""
   print()
 print()
+       </strong>
        </code>
      </pre>
     <a href="https://github.com/Mr-vabs/webkul/tree/main/Python" class="btn btn-primary btn-lg">See Code Repository</a>
     <hr />
   </div>
 </body>
+
 </html>
