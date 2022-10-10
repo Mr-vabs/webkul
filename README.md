@@ -1,17 +1,17 @@
 # Webkul
 
-<hr>
+---
 
 ## Technical Round
 
-<hr>
+---
 
 <details>
   <summary>About Webkul Hiring</summary>
 
 ---
 
-<p>For Developers, working at Webkul is all about coding & programming. Webkul always hires those who wants to build their career in technology. If you want to work with Webkul as a developer then you must be sound in programming. Your logical part needs to be strong. To polish your technical skills you need to work on some projects so that you improve your coding skills. Webkul never asks aptitude or reasoning kind of questions for development profile. Rather they always focus on programming & test the technical abilities of a candidate.</p>
+For Developers, working at Webkul is all about coding & programming. Webkul always hires those who wants to build their career in technology. If you want to work with Webkul as a developer then you must be sound in programming. Your logical part needs to be strong. To polish your technical skills you need to work on some projects so that you improve your coding skills. Webkul never asks aptitude or reasoning kind of questions for development profile. Rather they always focus on programming & test the technical abilities of a candidate.
 
 ---
 
@@ -42,25 +42,27 @@
 
 ## Solution
 
-<hr>
+---
 
 - View solution in [repository](https://github.com/Mr-vabs/webkul/).
 
 ## Notice
 
-<hr>
+---
 
-- Please follow the instructions given below otherwise I won't accept your pull request.
+- Please follow the instructions given below, otherwise I won't accept your pull request.
+
+- Only 1 PR will be accepted from on person and it should follow the given instructions.
 
 - This repository was made for webkul technical round questions for which they give 60 minutes to solve a pattern problem.
 
 ## Wanna Contribute? 
 
-<hr>
+---
 
 ### Accepting PRs for Hacktoberfest
 
-<hr>
+---
 
 - Star and fork this repository by clicking [here](https://github.com/Mr-vabs/webkul/fork).
 
@@ -76,7 +78,7 @@
 
 ## Good for pattern logics
 
-<hr>
+---
 
 - This will boost your ability to make efficient and complex patterns.
 
