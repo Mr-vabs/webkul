@@ -1,4 +1,4 @@
-# webkul
+# Webkul
 
 <hr>
 
@@ -6,20 +6,53 @@
 
 <hr>
 
-- See [Web](https://Mr-vabs.github.io/webkul/index.html)
-- See [Repo](https://github.com/Mr-vabs/webkul)
+<details>
+  <summary>About Webkul Hiring</summary>
+
+---
+
+<p>For Developers, working at Webkul is all about coding & programming. Webkul always hires those who wants to build their career in technology. If you want to work with Webkul as a developer then you must be sound in programming. Your logical part needs to be strong. To polish your technical skills you need to work on some projects so that you improve your coding skills. Webkul never asks aptitude or reasoning kind of questions for development profile. Rather they always focus on programming & test the technical abilities of a candidate.</p>
+
+---
+
+***Interview Round***
+
+>
+> Filter round will be based on pattern making. Webkul works on various technologies like PHP, Python, node, java so the candidate can solve the code in any preferred language.
+
+---
+
+
+***Personal Interview***
+
+>
+>Candidate must be aware of all the projects, technical knowledge mentioned in the resume. Questions can be asked on the basis of all the details mentioned in their resume.
+
+---
+
+
+***HR Interview***
+
+>
+> HR round will be based on personal skills.
+
+---
+
+</details>
 
 ## Solution
 
 <hr>
 
-- View solution in [python](https://github.com/Mr-vabs/webkul/tree/main/Python).
+- View solution in [repository](https://github.com/Mr-vabs/webkul/).
 
 ## Notice
 
 <hr>
 
-I am Aadding some Extra Part in this Repository. Now you can add your tools or programs in this repository which is usefull in case of completing any tasks.
+- Please follow the instructions given below otherwise I won't accept your pull request.
+
+- This repository was made for webkul technical round questions for which they give 60 minutes to solve a pattern problem.
 
 ## Wanna Contribute? 
 
@@ -31,16 +64,23 @@ I am Aadding some Extra Part in this Repository. Now you can add your tools or p
 
 - Star and fork this repository by clicking [here](https://github.com/Mr-vabs/webkul/fork).
 
-- You can add your code within respected folder, however if you want to add any program in any language which is not listed then you will have to create a folder with the language name and then add in that folder.
+- Please see its [Web](https://Mr-vabs.github.io/webkul/index.html) for problem statement and check solution is given in which language.
 
-- Please add your code wisely as if repository tree get messed up, you're contribution will be considered invalid.
+- If the solution is given in your language then please solve it in different language and create folder and readme as same as Python folder has.
 
-- After modifying the forked repo, don't forgot to check the changes.
+- You can also add other webkul pattern questions, please read carefully I'm talking about webkul interview questions not language practice questions. You can find it in YouTube.
 
-- Make pr and wait for it to get merged.
+- After solving question in your language as per instructions, please check that everything is as organised as per instruction? If yes then it's good to go and please deploy your forked repository so that maintainer can check if everything is fine or not.
 
-## Still under development 
+- Make pr and wait for to check it. If everything is perfect then it'll be merged.
+
+## Good for pattern logics
 
 <hr>
 
-I'll keep adding stuff either from my SoloLearn codes or regular coding...
+- This will boost your ability to make efficient and complex patterns.
+
+- `Hint` : Make a matrix as per rows and columns of tbe desired pattern.
+
+
+I'll keep adding more solutions once I get a job or If I'm coding on regular basis and nothing left to code....
