@@ -60,11 +60,11 @@ For Developers, working at Webkul is all about coding & programming. Webkul alwa
 
 ---
 
-- Please follow the instructions given below and don't modify README in any case, otherwise I won't accept your pull request.
+- Please follow the instructions and don't modify README in any case, otherwise I won't accept your pull request.
 
-- Only 1 PR will be accepted from on person and it should follow the given instructions.
+- Only 1 PR will be accepted from one person and it should follow the instructions.
 
-- Please don't change anything in README. If anything is incorrect or needed to update leave it or suggest it in issues. 
+- Please don't change anything in README. If anything is incorrect or needed to update, leave it or suggest it in issues. 
 
 - This repository was made for webkul technical round questions for which they give 60 minutes to solve a pattern problem.
 
@@ -72,7 +72,7 @@ For Developers, working at Webkul is all about coding & programming. Webkul alwa
 
 ---
 
-### Accepting PRs for Hacktoberfest
+### Accepting PR for Hacktoberfest
 
 ---
 
@@ -86,9 +86,9 @@ For Developers, working at Webkul is all about coding & programming. Webkul alwa
 
 - After solving question in your language as per instructions, please check that everything is as organised as per instruction? If yes then it's good to go and please deploy your forked repository so that maintainer can check if everything is fine or not.
 
-- Deploy it using GitHub pages. Go to settings of your repository, go to GitHub pages, choose a branch and save. Wait for few minutes and see but please don't change anything in README.
+- Deploy it using GitHub pages. Go to settings of your repository, go to GitHub pages, choose a branch and save. Wait for few minutes and see but don't change anything in README.
 
-- Make pr and wait for to check it. If everything is perfect then it'll be merged.
+- Make a pull request and wait for it to be checked. If everything is perfect then it'll be merged.
 
 ## Good for pattern logics
 
@@ -96,7 +96,7 @@ For Developers, working at Webkul is all about coding & programming. Webkul alwa
 
 - This will boost your ability to make efficient and complex patterns.
 
-- `Hint` : Make a matrix as per rows and columns of tbe desired pattern.
+- `Hint` : Make a matrix as per rows and columns of the desired pattern.
 
 
 I'll keep adding more solutions once I get a job or If I'm coding on regular basis and nothing left to code....
