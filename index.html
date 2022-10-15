@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +7,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Webkul Technical Round Question</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+
+  
   <style type="text/css" media="all">
   
      body {
@@ -240,29 +245,43 @@
   <div class="container">
      <h2 class="text-center alert alert-info m-2">Solution</h2>
      <pre>
-       <code>
-for i in range(1,n+3):
-  for j in range(n//2+2):
-    if i <= n//2+2 and j < i:
-      print("@",end="")
-    elif i > n//2+2 and j < 2*(n//2+2)-i:
-      print("@",end="")
-    else:
-      print(" ",end="")
-  for j in range(n+2):
-    if i == n//2+2:
-      print("*",end="")
-    else:
-      print(" ",end="")
-  for j in range(n):
-    if i > 1 and i < n+2:
-      print("@",end=""
-  print()
+       <code class="python language-python">
+def numinput():
+	n=int(input("Number of lines 'only odd number' :: "))
+	if (n%2!=0 and n>2):
+		diode(n)
+	else:
+		print(":: Only odd numbers and not 1 ::")
+		numinput()
+
 print()
+
+def diode(n):
+	print()
+	for i in range(1, n+3):
+		for j in range(1, 5*(n+2)//2):
+			if i<=n//2+2 and j<=i or i>1 and i < n+2 and j>=3*(n//2+2) or i>n//2+2 and j<=2*(n//2+2)-i:
+				print("@",end="")
+			elif i==n//2+2 and j>i and j < i*3:
+				print("*",end="")
+			else:
+				print(" ",end="")
+		print()
+	print()
+	numinput()
+
+print()
+print("It's a symbol like a diode.")
+print()
+numinput()
        </code>
      </pre>
     <a href="https://github.com/Mr-vabs/webkul/tree/main/Python" class="btn btn-primary btn-lg">See Code Repository</a>
     <hr />
   </div>
+  <!-- and it's easy to individually load additional languages -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/languages/go.min.js"></script>
+
+  <script>hljs.highlightAll();</script>
 </body>
 </html>
