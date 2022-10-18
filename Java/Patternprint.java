@@ -1,9 +1,9 @@
 import java.util.*;
-
-public class Patternprint {
+public class Patternprint{
 public static void main(String[] args) {
-    Scanner s = new Scanner(System.in);
+Scanner s = new Scanner(System.in);
 int n = s.nextInt();
+
 for (int i= 0; i< (n+2)/2; i++) {
 for(int j=0; j<i+1; j++) {
 System.out.print("@"+ " ");
@@ -14,10 +14,9 @@ System.out.print(" "+ " ");
 if(i!=0){
 for(int m=0; m<n; m++){
 System.out.print("@"+ " ");
-//  System.out.print("\n");
+// System.out.print("\n");
 }
 }
-
 System.out.print("\n");
 }
 
@@ -49,5 +48,8 @@ System.out.print("@"+ " ");
 
 System.out.print("\n");
 }
+
+
+
 }
 }
